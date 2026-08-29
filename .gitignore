@@ -27,3 +27,4 @@ k8s/*-secret.yaml
 
 # ---- Docker ----
 *.tar
+test_image.png
