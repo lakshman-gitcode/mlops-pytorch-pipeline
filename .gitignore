@@ -1,0 +1,29 @@
+# ---- ML artifacts (never commit these) ----
+checkpoints/
+*.pt
+*.pth
+data/
+*.log
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# ---- Secrets / config that shouldn't be public ----
+.env
+*.secret
+secrets/
+k8s/*-secret.yaml
+
+# ---- OS / editor cruft ----
+.DS_Store
+.idea/
+.vscode/
+
+# ---- Docker ----
+*.tar
